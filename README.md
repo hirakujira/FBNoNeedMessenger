@@ -1,9 +1,9 @@
 ## FBNoNeedMessenger
----
 * Remove the requirement of installing Messenger.app to chat in latest Facebook.app
 
 
 ### Requirement
+================
 * Cydia Substrate
 * Firmware >= 5.0
 
