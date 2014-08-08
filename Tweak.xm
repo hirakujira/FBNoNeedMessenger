@@ -7,6 +7,12 @@
 }
 %end
 
+%hook FBMessengerModuleAppProperties
+- (BOOL)promotionEnabled {
+    return NO;
+}
+%end
+
 %ctor {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     %init;
